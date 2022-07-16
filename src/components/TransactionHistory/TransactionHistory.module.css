@@ -1,0 +1,37 @@
+.history {
+   box-shadow: 0 0 10px 3px gray;
+   border-radius: 5px;
+   border-collapse: collapse;
+   overflow: hidden;
+   margin: 30px auto;
+}
+
+.history tr {
+   height: 50px;
+   font-size: 16px;
+   text-align: center;
+}
+.history tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+.history tr:hover {
+   background-color: #ddd;
+}
+.history tr td:first-child,
+.history tr th:first-child {
+   width: 200px;
+   padding-left: 100px;
+   text-align: start;
+   text-transform: capitalize;
+}
+.history td {
+   border: 1px solid #ddd;
+}
+.history th {
+   width: 300px;
+   background: rgb(0, 217, 255);
+   color: white;
+   text-transform: uppercase;
+   font-size: 16px;
+   border: 1px solid #ddd;
+}
